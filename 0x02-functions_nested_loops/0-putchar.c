@@ -10,7 +10,7 @@ char emu[] = "_putchar";
 int i;
 for (i = 0; i < 8; i++)
 {
-   _putchar(emu[i]);
+_putchar(emu[i]);
 }
 _putchar('\n');
 return (0);
