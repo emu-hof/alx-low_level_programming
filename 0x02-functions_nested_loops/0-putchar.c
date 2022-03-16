@@ -1,19 +1,11 @@
-#include "pc.h"
+#include "unistd.h"
+
 /**
  * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int _putchar(char c)
 {
-	char *test = "PC";
-
-	while (*test)
-	{
-		_putchar(*test);
-		test++;
-	}
-	_putchar('\n');
-
-	return (0);
+	return (write(1, &c, 1));
 }
