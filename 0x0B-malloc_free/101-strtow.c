@@ -1,6 +1,7 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+
 /**
  *word_len - finds the length of a word
  *@str:string to test
